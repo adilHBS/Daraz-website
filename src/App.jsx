@@ -5,7 +5,11 @@ import { IconContext } from 'react-icons';
 import Herosection from './components/Herosection.jsx';
 import './App.css'
 import Navbar from './components/Navbar.jsx';
+import Slider from './components/Slider.jsx';
 import Footer from './components/Footer.jsx';
+import Herosection2 from './components/Hero-section2.jsx';
+import HeroSection3 from './components/Hero-section3.jsx';
+
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -43,8 +47,11 @@ function App() {
   return (
 
     <div className="bg-gray-100 min-h-screen">
+     
       <Navbar />
-      < Herosection/>
+      <Slider />
+      
+      
       
       
      
@@ -128,6 +135,9 @@ function App() {
           </div>
         </div>
       )}
+      < Herosection/>
+      < Herosection2 />
+      < HeroSection3 />
       < Footer/>
     </div>
   );
