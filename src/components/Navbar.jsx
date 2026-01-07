@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { FaSearch, FaShoppingCart } from 'react-icons/fa';
-import Logo from '../assets/img/Logo.png';
+import Logo from '../assets/logo.png';
 
 function Navbar() {
   return (
@@ -22,7 +22,7 @@ function Navbar() {
         
         {/* Logo */}
         <div className="shrink-0">
-          <img src={Logo} alt="Daraz Logo" className="w-36 h-auto cursor-pointer" />
+          <img src={Logo} alt="Logo" className="w-36 h-auto cursor-pointer" />
         </div>
 
 <div className="relative w-full md:w-2/3 lg:w-1/2">
