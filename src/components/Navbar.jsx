@@ -17,6 +17,8 @@ function Navbar() {
         <a href="#" className="hover:underline font-medium">زبان تبدیل کریں</a>
       </div>
 
+
+
       {/* 2. Main Navbar Section */}
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between gap-8">
         
