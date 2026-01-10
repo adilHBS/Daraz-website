@@ -5,14 +5,13 @@ import slide3 from '../assets/img/slider3.avif';
 import slide4 from '../assets/img/slider4.avif';
 import slide5 from '../assets/img/slider5.avif';
 import slide6 from '../assets/img/slider6.avif';
-import slide7 from '../assets/img/Slider7.avif';
-import slide8 from '../assets/img/Slider8.avif';
-import slide9 from '../assets/img/Slider9.avif';
-import slide10 from '../assets/img/Slider10.avif';
-import slide11 from '../assets/img/Slider11.avif';
-import slide12 from '../assets/img/Slider12.avif';
-import slide13 from '../assets/img/Slider13.avif';
-import slide14 from '../assets/img/Slider14.avif';
+import slide8 from '../assets/img/slider8.avif';
+import slide9 from '../assets/img/slider9.avif';
+import slide10 from '../assets/img/slider10.avif';
+import slide11 from '../assets/img/slider11.avif';
+import slide12 from '../assets/img/slider12.avif';
+import slide13 from '../assets/img/slider13.avif';
+import slide14 from '../assets/img/slider14.avif';
 import Try from '../assets/img/try.png'
 
 const Slider = () => (
@@ -29,7 +28,7 @@ const Slider = () => (
           infinite 
           className="main-slider"
         >
-          {[slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9, slide10, slide11, slide12, slide13, slide14].map((img, index) => (
+          {[slide2, slide3, slide4, slide5, slide6,  slide8, slide9, slide10, slide11, slide12, slide13, slide14].map((img, index) => (
             <div key={index}>
               <div className="h-[300px] md:h-[340px] lg:h-[380px] w-full">
                 <img 
