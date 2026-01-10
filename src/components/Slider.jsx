@@ -1,12 +1,5 @@
-
-
-
-
 import React from 'react';
 import { Carousel } from 'antd';
-// Note: Ant Design 5.x mein CSS import karne ki zaroorat nahi hoti, 
-// agar aap purana version use kar rahe hain to 'antd/dist/antd.css' rehne dein.
-import slide1 from '../assets/img/Slider.webp';
 import slide2 from '../assets/img/slider2.avif';
 import slide3 from '../assets/img/slider3.avif';  
 import slide4 from '../assets/img/slider4.avif';
